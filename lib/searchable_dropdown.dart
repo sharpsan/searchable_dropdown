@@ -698,7 +698,7 @@ class DropdownDialog<T> extends StatefulWidget {
   final Color menuBackgroundColor;
 
   DropdownDialog({
-    Key key,
+    Key? key,
     this.items,
     this.hint,
     this.isCaseSensitiveSearch = false,
